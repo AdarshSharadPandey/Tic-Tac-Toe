@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: lightskyblue;
+}
+
+#mainHeading{
+	color: navy;
+	font-family: cursive;
+	text-align: center;
+	position: absolute;
+	top: 70px;
+	left: 420px;
+	font-size: 70px;
+}
+
+nav ul{
+	background-color: darkblue;
+	color: white;
+	height: 28px;
+	padding: 0 12px;
+	text-align: center;
+    font-family: 'Gwendolyn', cursive;
+}
+
+.gameContainer{
+	position: absolute;
+	top: 190px;
+	left: 300px;
+	background-color: navy;
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+	border: solid 2px red;
+}
+
+.imgbox img{
+	display: none;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(3, 10vw);
+	grid-template-rows: repeat(3, 10vw);
+	margin: 10px;
+}
+
+.boxtext{
+	color: green;
+	font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.container div{
+	border: 2px solid red;
+	font-size: 100px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container div:hover{
+	background-color: skyblue;
+}
+
+.gameInfo{
+	padding: 35px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.gameInfo h3{
+	font-family: 'Corinthia', cursive;
+	align-items: center;
+	color: red;
+}
+
+.info{
+	color: lightskyblue;
+	font-size: 30px;
+}
+#first{
+	border-top: 0;
+	border-left: 0;
+}
+#second{
+	border-top: 0;
+}
+#third{
+	border-top: 0;
+	border-right: 0;
+}
+#forth{
+	border-left: 0;
+}
+#sixth{
+	border-right: 0;
+}
+#seventh{
+	border-bottom: 0;
+	border-left: 0;
+}
+#eighth{
+	border-bottom: 0;
+}
+#ninth{
+	border-right: 0;
+	border-bottom: 0;
+}
